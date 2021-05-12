@@ -8,7 +8,7 @@ namespace DAL.ORM
     public class DataManager : DbContext
     {
         public DataManager()
-            : base("name=DataManager")
+            : base("name=RemoteConnection")
         {
         }
 
