@@ -59,6 +59,11 @@
     <Compile Include="Entities\Point.cs" />
     <Compile Include="Entities\Producer.cs" />
     <Compile Include="Entities\Vaccine.cs" />
+    <Compile Include="Interfaces\ICategoryRepository.cs" />
+    <Compile Include="Interfaces\ICitiesRepository.cs" />
+    <Compile Include="Interfaces\ICountriesRepository.cs" />
+    <Compile Include="Interfaces\IDoctorsRepository.cs" />
+    <Compile Include="Interfaces\IHospitalsRepositories.cs" />
     <Compile Include="Migrations\202105111603555_FirstMigration.cs" />
     <Compile Include="Migrations\202105111603555_FirstMigration.Designer.cs">
       <DependentUpon>202105111603555_FirstMigration.cs</DependentUpon>
@@ -67,11 +72,10 @@
     <Compile Include="OperationsManager.cs" />
     <Compile Include="ORM\DataManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\CategoriesRepositories.cs" />
+    <Compile Include="Repositories\DoctorsRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
